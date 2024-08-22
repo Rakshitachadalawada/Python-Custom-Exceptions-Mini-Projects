@@ -6,9 +6,7 @@ This repository contains three Python scripts that demonstrate how to create and
 - [Introduction](#introduction)
 - [Features](#features)
 - [Installation](#installation)
-- [Usage](#usage)
-  - [Negative Age Exception](#negative-age-exception)
- 
+
 
 
 ## Introduction
@@ -34,19 +32,6 @@ Clone the repository and navigate to the project directory:
 ```bash
 git clone https://github.com/Rakshitachadalawada/Python-Custom-Exceptions-Mini-Projects.git
 cd Python-Custom-Exceptions-Mini-Projects
-## Usage
 
-### Negative Age Exception
-
-Use this script to classify age stages and handle invalid age inputs:
-
-```python
-from MiniUserDefinedExceptions import stage
-
-try:
-    age = int(input("Enter age: "))
-    stage(age)
-except (ValueError, NegativeAgeException) as e:
-    print(e)
 
 
