@@ -29,8 +29,11 @@ This project includes three mini Python scripts that implement custom exception 
 
 ## Installation
 
+
+
 Clone the repository and navigate to the project directory:
 
 ```bash
-git clone https://github.com/yourusername/python-mini-exceptions.git
-cd python-mini-exceptions
+git clone https://github.com/Rakshitachadalawada/Python-Custom-Exceptions-Mini-Projects.git
+cd Python-Custom-Exceptions-Mini-Projects
+
